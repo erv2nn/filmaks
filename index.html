@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Filma shqip</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+  <div class="logo"   >
+
+   <img src="2.png" alt="filma" width="30" height="30">
+   <span><b>KATEGORIT</b><span></span> 
+  </div>
+  <div class="logo1">
+ <img src="s.png" alt="category" width="30" height="30" >
+  <span><b>FILMA</b><span> </div>
+    <div class="logo2" >
+        <img src="l.png" alt="category" width="30" height="30" >
+<span><b>SERIALE</b><span></span>
+</div>
+
+  <div class="header1">
+
+     <img src="ll.png" alt="search" width="60" height="50" >
+   
+   </div>
+
+  
+<div class="row">
+  <div class="column">
+    <img src="https://www.filma24.cc/wp-content/uploads/79289194f2b81fefa22460643db6083ca46911d4.jpg" alt="Snow" border="5" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="https://www.filma24.cc/wp-content/uploads/rsz_9lgvc8klwle8eoxvdablzxur15s.png" alt="Forest" border="5" style="width:80%">
+
+  </div>
+  <div class="column">
+    <img src="https://www.filma24.cc/wp-content/uploads/rsz_hqsuwjssrtwca5eboy22ggzae8y.png" alt="Mountains" border="5" style="width:80%">
+  </div>
+ 
+   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+ </div>
+ 
+ <script>
+ var slideIndex = 1;
+ showDivs(slideIndex);
+ 
+ function plusDivs(n) {
+   showDivs(slideIndex += n);
+ }
+ 
+ function showDivs(n) {
+   var i;
+   var x = document.getElementsByClassName("mySlides");
+   if (n > x.length) {slideIndex = 1}
+   if (n < 1) {slideIndex = x.length}
+   for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+   }
+   x[slideIndex-1].style.display = "block";  
+
+
+
+
+</body>
+  
+</html>
